@@ -1,0 +1,8 @@
+Merge Sort uses recursion method, where the left and right halves are used to compare elements with each other 
+During recursion, it will break down the array until it reaches the smallest array size, here the smallest arrays are rearranged.
+After the smallest arrays are rearranged, they are then compared amongst each other, the resulting array is further compared with the "other" resulting arrays coming out of other branches. This goes on until we reach the answer.
+
+At each level j=0,1,2,..,log_2(n) there are 2^j subproblems, each of size n/2^j.
+Merge sort algorithm has maximum running time of 6nlogn + 6n -> where log is to the base 2
+
+Much better than bubble sort, inclusion sort or selection sort since their running time is of O(n^2).
