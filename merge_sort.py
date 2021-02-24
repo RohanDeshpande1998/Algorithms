@@ -30,6 +30,3 @@ def sort(arr):
                 temp_arr.append(B[j])
                 j = j+1
         return(temp_arr)
-
-array = [5,2,6,3,1,5,7,8,0,9,56,-4,-2.6,2,9,9]
-print(sort(array))
