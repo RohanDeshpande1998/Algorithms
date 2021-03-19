@@ -35,7 +35,7 @@ def sort(arr, count=0):
                 i = i + 1            
         return(temp_arr, count)
 
-assignment =  open("Assignment/Programming_Assignment_2.txt", "r")
+assignment =  open("Assignment/Programming_Assignment_1_2.txt", "r")
 array = assignment.read().splitlines()
 array_int = [int(a) for a in array]
 print(sort(array_int))

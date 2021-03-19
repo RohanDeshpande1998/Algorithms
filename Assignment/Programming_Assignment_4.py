@@ -25,7 +25,7 @@ def random_contraction(arr):
     
 
 
-with open("Assignment/Programming_Assignment_4.txt") as assignment:
+with open("Assignment/Programming_Assignment_1_4.txt") as assignment:
     array = [list(map(int, line.split())) for line in assignment] 
 
 print(random_contraction(array))
